@@ -1,4 +1,61 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+/* Created by: Kyle Matthew Magnaye */
+
+body {
+  background: lightblue;
+  /* Test to ensure CSS loads */
+}
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
+
+.mdl-layout__content {
+  padding: 15pt;
+}
+
+.page-content {
+  color: rgb(186, 34, 34);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.right-image {
+  float: right;
+  width: 30%;
+  /* Make it smaller */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.right-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 250px;
+  /* Optional limit */
+}
+
+.temperature-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.temperature-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unit-label {
+  margin-top: 4px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.equals-sign {
+  font-weight: bold;
+  font-size: 1.5em;
+}
